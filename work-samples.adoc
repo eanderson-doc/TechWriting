@@ -1,0 +1,53 @@
+Elizabeth Anderson Samples
+==========================
+:toc:
+:toc-placement: preamble
+:toclevels: 1
+:showtitle:
+
+.Intent
+This is a collection of excerpts of completed work, intended to showcase writing aptitude. Contents have been sanitized for compliance with non-disclosure agreements, identifying data redacted, and text taken exclusively from the body of documents. Information redacted is indicated by $ValueDescriptor.
+
+=== Sales Personnel Facing Product Guide Excerpt
+.Purpose
+The intent of this document is to provide an appropriate level of understanding of Managed SIEM for a non-technical personnel. It is intended to serve as both a training and reference document for $Product. For technical documentation, please reference $Product Configuration and Administration Guide at $Link.
+
+.Product Description
+$Company's Managed Security Information and Event Management (SIEM) offering imports log files from customer firewalls as well as live network traffic data. Using this data, Managed SIEM correlates activities to identify and track potential issues.  Managed SIEM does not rely on databases of known threats; it learns the customer’s baseline of normal activity and generates alerts when changes occur.  This intelligent response provides real-time threat protection from even previously undiscovered “zero-day” threats.
+
+.Product Intent
+Managed SIEM makes a customer’s existing security measures smarter. Distributed attacks using multiple systems and internal threats from personnel make up the most severe cybersecurity risks today. Managed SIEM identifies connections between incidents and uses behavioral analysis to detect threats from user actions. Customer data is fed into $Company systems constantly, and data analysis occurs outside the customer network. This solution can identify widespread issues quickly as it can identify trends across multiple customer environments without sharing data between them.
+
+.Product Delivery
+With input from $Company, the customer selects critical network devices to forward logs in real-time to Security Operations Center. The Security Operations Center runs 24/7/365, working to monitor customer traffic and logging for security threats. When SIEM identifies a threat, the generated alert creates an incident ticket. The customer is automatically alerted via their preferred contact method.
+
+=== IT Environment Assessment Excerpt
+.Executive Summary - Findings
+_Note: Engagement overview redacted._
+
+While the existing infrastructure is adequate to provide the basics necessary to support business needs, misconfiguration has led to performance and security deficits. The areas of opportunity observed are not uncommon for a business whose rapid growth has outpaced IT capacity planning. The functional limitations to scalability and operational efficiency found are typical when expansion is reactive rather than proactive.
+
+As $Company analyzed each infrastructure component, it became apparent that devices were not optimal to support a business of this size.  Even when the devices themselves were appropriate for the environment, their configuration was not. $Company consistently found that the entire infrastructure was not being managed or maintained.  This lack of effective management has tangible effects on the business, manifesting in office as sluggish workstations and thus increased wait time for patients.
+
+Both network and computing devices were missing several critical updates.  These updates are necessary for compliance with HIPAA regulations, which presents a significant financial risk to the Customer in civil money penalties from the U.S. Department of Health.  Potential for loss of revenue due to reputational damage should a breach of patient records occur must also be considered.
+
+The sum of these issues is an IT infrastructure with several vulnerabilities that could seriously impair business function. While updates or configuration adjustments could resolve some of these issues, they would consume a significant amount of resources and impact business operations over a longer duration. A redesign would better prepare the customer or future growth and minimize the need for constant operational patching of problems as they occur.
+
+Critical findings are summarized below:
+
+* Security and Regulatory
+- Vendor default passwords in use on network equipment
+- Weak passwords in use on systems with access to PHI and PCI
+- Critical software on production equipment has reached end of life
+- Production equipment not properly updated
+* Performance
+- No backup internet connection
+- Failure of any single network device would cripple network traffic
+* Operational Management
+- Infrastructure not labeled or documented
+- Network Management credentials not centrally maintained
+- No remote management capability
+* Capacity Planning
+- Server Operating Systems past and/or approaching End of Life
+- Workstations nearing capacity of allocated disk space
+- Expansion time consuming due to static routes
